@@ -1,6 +1,7 @@
 import { Button } from './components/Button'
 import { Cards } from './components/Cards'
 import { CardsDown } from './components/CardsDown'
+import { ImagemBaixo } from './components/ImagemBaixo'
 
 export default function App() {
   return (
@@ -13,6 +14,8 @@ export default function App() {
           <Cards />
           <CardsDown />
           <Button />
+        
+          <ImagemBaixo />
         </div>
       </div>
     </div>
