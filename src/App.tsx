@@ -1,3 +1,4 @@
+import { Button } from './components/Button'
 import { Cards } from './components/Cards'
 import { CardsDown } from './components/CardsDown'
 
@@ -11,6 +12,7 @@ export default function App() {
         <div className="flex flex-col gap-10 justify-center items-center">
           <Cards />
           <CardsDown />
+          <Button />
         </div>
       </div>
     </div>
