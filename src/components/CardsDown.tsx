@@ -32,9 +32,6 @@ export function CardsDown() {
         </div>
         <div className="bg-[#F4F5F7] h-[446px] w-[285px]">
           <div>
-          <p className="flex relative top-9 left-56 -mt-7 text-[#ffffff] bg-[#2EC1AC] rounded-full w-7 h-7 text-[10px] items-center justify-center ">
-              New
-            </p>
 
             <img className="h-[301px] w-[285px]" src={img2} alt="" />
           </div>
@@ -60,9 +57,10 @@ export function CardsDown() {
         </div>
         <div className="bg-[#F4F5F7] h-[446px] w-[285px]">
           <div>
-          <p className=" flex items-center justify-center relative top-9 left-56 -mt-7 text-[#ffffff] bg-[#E97171] rounded-full w-7 h-7 text-[12px] ">
-            -50%
+          <p className="flex relative top-12 left-56 -mt-10 text-[#ffffff] bg-[#2EC1AC] rounded-full w-7 h-7 text-[10px] items-center justify-center p-5 ">
+            New
           </p>
+
 
             <img className="h-[301px] w-[285px]" src={img3} alt="" />
           </div>
@@ -83,7 +81,7 @@ export function CardsDown() {
               <p className="w-[130px] h-[29px] text-[#3A3A3A] font-Poppins-Medium font-bold">
                 Rp 7.000.000
               </p>
-              <p className="w-[120  px] h-[24px] font-Poppins-Medium line-through text-[#B0B0B0]">
+              <p className="w-[120px] h-[24px] font-Poppins-Medium line-through text-[#B0B0B0]">
                 Rp 14.000.000
               </p>
             </div>
@@ -91,9 +89,10 @@ export function CardsDown() {
         </div>
         <div className="bg-[#F4F5F7] h-[446px] w-[285px]">
           <div>
-            <p className="flex relative top-9 left-56 -mt-7 text-[#ffffff] bg-[#2EC1AC] rounded-full w-7 h-7 text-[10px] items-center justify-center ">
-              New
-            </p>
+          <p className="flex relative top-12 left-56 -mt-10 text-[#ffffff] bg-[#2EC1AC] rounded-full w-7 h-7 text-[10px] items-center justify-center p-5 ">
+            New
+          </p>
+
   
             <img className="h-[301px] w-[285px]" src={img4} alt="" />
           </div>
