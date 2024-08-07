@@ -2,10 +2,11 @@ import seta from '../assets/seta.png'
 import seta2 from '../assets/seta2.png'
 import bola from '../assets/bola1.png'
 import bola2 from '../assets/bola2.png'
+import img from '../assets/carrossel3.png'
 
 export function Carrossel() {
     return (
-        <div className="bg-[#FCF8F3] w-full h-[670px] flex items-center justify-center gap-x-16">
+        <div className="bg-[#FCF8F3] max-w-full h-[670px] flex items-center justify-center gap-x-10 m-0 overflowx-hidden">
             <div className="flex flex-col gap-4">
             <p className="text-4xl font-bold text-[#3A3A3A] ">
                 50+ Beautiful rooms<br />
@@ -38,7 +39,11 @@ export function Carrossel() {
                     <img src={bola} alt="" />
                     <img src={bola} alt="" />
                 </div>
-            </div>    
+            
+            </div> 
+                <div className='overflow-hidden mb-[94px] absolute right-[-200px]'>
+                    <img src={img} alt="" />
+                </div>     
         </div>
     )
 }
