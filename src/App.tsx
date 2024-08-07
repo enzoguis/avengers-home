@@ -9,12 +9,14 @@ export default function App() {
   return (
     <div>
       <div className="">
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center justify-center gap-y-6">
           <BannerInicio />
-          <Cards />
-          <CardsDown />
-          <Button />
-          <ImagemBaixo />
+          <div className='flex flex-col items-center justify-center gap-y-6'>
+            <Cards />
+            <CardsDown />
+            <Button />
+            <ImagemBaixo />
+          </div>
         </div>
       </div>
     </div>
