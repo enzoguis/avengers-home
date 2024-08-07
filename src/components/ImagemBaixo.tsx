@@ -1,10 +1,3 @@
-// import img from '../assets/Images.png'
-// import img3 from '../assets/Images (1).png'
-// import img4 from '../assets/Images (2).png'
-// import img2 from '../assets/Images (3).png'
-
-// <img className="h-[301px] w-[285px]" src={img3} alt="" />
-
 import img1 from '../assets/em1.png'
 import img2 from '../assets/em2.png'
 import img3 from '../assets/em3.png'
