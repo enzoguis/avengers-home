@@ -1,8 +1,8 @@
 import { BannerInicio } from './components/BannerInicio'
-import { Button } from './components/Button'
+import { Filtro } from './components/Filtro'
 import { Cards } from './components/Cards'
 import { CardsDown } from './components/CardsDown'
-import { Filtro } from './components/Filtro'
+import { Button } from './components/Button'
 import { ImagemBaixo } from './components/ImagemBaixo'
 
 
@@ -15,9 +15,9 @@ export default function App() {
           <div className='flex flex-col items-center justify-center gap-y-6'>
             <Cards />
             <CardsDown />
-            <Button />
-            <ImagemBaixo />
           </div>
+          <Button />
+          <ImagemBaixo />
         </div>
       </div>
   )
