@@ -8,7 +8,6 @@ import { ImagemBaixo } from './components/ImagemBaixo'
 
 export default function App() {
   return (
-      <div className="">
         <div className="flex flex-col items-center justify-center gap-y-16">
           <BannerInicio />
           <Filtro />
@@ -17,9 +16,8 @@ export default function App() {
             <Cards />
             <CardsDown />
           </div>
-          <Button />
-          <ImagemBaixo />
+            <Button />
+            <ImagemBaixo />
         </div>
-      </div>
   )
 }
