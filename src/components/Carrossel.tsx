@@ -41,7 +41,7 @@ export function Carrossel() {
                 </div>
             
             </div> 
-                <div className='overflow-hidden mb-[94px] absolute right-[-200px]'>
+                <div className='overflow-hidden mb-[94px] absolute right-[-200px] hidden [1800px]:flex'>
                     <img src={img} alt="" />
                 </div>     
         </div>
