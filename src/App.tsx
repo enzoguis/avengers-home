@@ -2,6 +2,7 @@ import { BannerInicio } from './components/BannerInicio'
 import { Filtro } from './components/Filtro'
 import { Cards } from './components/Cards'
 import { CardsDown } from './components/CardsDown'
+import { Carrossel } from './components/Carrossel'
 import { Button } from './components/Button'
 import { ImagemBaixo } from './components/ImagemBaixo'
 
